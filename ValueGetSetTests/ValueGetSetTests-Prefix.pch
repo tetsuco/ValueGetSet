@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ValueGetSetTests' target in the 'ValueGetSetTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

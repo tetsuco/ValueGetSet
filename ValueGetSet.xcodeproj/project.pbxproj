@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10FE66AF140E7F8A00555A5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FE66AE140E7F8A00555A5C /* UIKit.framework */; };
+		10FE66B1140E7F8A00555A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FE66B0140E7F8A00555A5C /* Foundation.framework */; };
+		10FE66B3140E7F8A00555A5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FE66B2140E7F8A00555A5C /* CoreGraphics.framework */; };
+		10FE66B9140E7F8A00555A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10FE66B7140E7F8A00555A5C /* InfoPlist.strings */; };
+		10FE66BC140E7F8A00555A5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FE66BB140E7F8A00555A5C /* main.m */; };
+		10FE66BF140E7F8A00555A5C /* ValueGetSetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FE66BE140E7F8A00555A5C /* ValueGetSetAppDelegate.m */; };
+		10FE66C2140E7F8B00555A5C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10FE66C0140E7F8B00555A5C /* MainWindow.xib */; };
+		10FE66C9140E7F8B00555A5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FE66AE140E7F8A00555A5C /* UIKit.framework */; };
+		10FE66CA140E7F8B00555A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FE66B0140E7F8A00555A5C /* Foundation.framework */; };
+		10FE66CB140E7F8B00555A5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FE66B2140E7F8A00555A5C /* CoreGraphics.framework */; };
+		10FE66D3140E7F8B00555A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10FE66D1140E7F8B00555A5C /* InfoPlist.strings */; };
+		10FE66D6140E7F8B00555A5C /* ValueGetSetTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 10FE66D5140E7F8B00555A5C /* ValueGetSetTests.h */; };
+		10FE66D8140E7F8B00555A5C /* ValueGetSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FE66D7140E7F8B00555A5C /* ValueGetSetTests.m */; };
+		10FE66E4140E7FC600555A5C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FE66E2140E7FC600555A5C /* FirstViewController.m */; };
+		10FE66E5140E7FC600555A5C /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10FE66E3140E7FC600555A5C /* FirstViewController.xib */; };
+		10FE66E9140E7FDB00555A5C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FE66E7140E7FDB00555A5C /* SecondViewController.m */; };
+		10FE66EA140E7FDB00555A5C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10FE66E8140E7FDB00555A5C /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10FE66CC140E7F8B00555A5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10FE66A1140E7F8A00555A5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10FE66A9140E7F8A00555A5C;
+			remoteInfo = ValueGetSet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10FE66AA140E7F8A00555A5C /* ValueGetSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValueGetSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FE66AE140E7F8A00555A5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10FE66B0140E7F8A00555A5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10FE66B2140E7F8A00555A5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10FE66B6140E7F8A00555A5C /* ValueGetSet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ValueGetSet-Info.plist"; sourceTree = "<group>"; };
+		10FE66B8140E7F8A00555A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10FE66BA140E7F8A00555A5C /* ValueGetSet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ValueGetSet-Prefix.pch"; sourceTree = "<group>"; };
+		10FE66BB140E7F8A00555A5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10FE66BD140E7F8A00555A5C /* ValueGetSetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValueGetSetAppDelegate.h; sourceTree = "<group>"; };
+		10FE66BE140E7F8A00555A5C /* ValueGetSetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValueGetSetAppDelegate.m; sourceTree = "<group>"; };
+		10FE66C1140E7F8B00555A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		10FE66C8140E7F8B00555A5C /* ValueGetSetTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValueGetSetTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FE66D0140E7F8B00555A5C /* ValueGetSetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ValueGetSetTests-Info.plist"; sourceTree = "<group>"; };
+		10FE66D2140E7F8B00555A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10FE66D4140E7F8B00555A5C /* ValueGetSetTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ValueGetSetTests-Prefix.pch"; sourceTree = "<group>"; };
+		10FE66D5140E7F8B00555A5C /* ValueGetSetTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValueGetSetTests.h; sourceTree = "<group>"; };
+		10FE66D7140E7F8B00555A5C /* ValueGetSetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValueGetSetTests.m; sourceTree = "<group>"; };
+		10FE66E1140E7FC600555A5C /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		10FE66E2140E7FC600555A5C /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		10FE66E3140E7FC600555A5C /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		10FE66E6140E7FDB00555A5C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		10FE66E7140E7FDB00555A5C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		10FE66E8140E7FDB00555A5C /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10FE66A7140E7F8A00555A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE66AF140E7F8A00555A5C /* UIKit.framework in Frameworks */,
+				10FE66B1140E7F8A00555A5C /* Foundation.framework in Frameworks */,
+				10FE66B3140E7F8A00555A5C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FE66C4140E7F8B00555A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE66C9140E7F8B00555A5C /* UIKit.framework in Frameworks */,
+				10FE66CA140E7F8B00555A5C /* Foundation.framework in Frameworks */,
+				10FE66CB140E7F8B00555A5C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10FE669F140E7F8A00555A5C = {
+			isa = PBXGroup;
+			children = (
+				10FE66B4140E7F8A00555A5C /* ValueGetSet */,
+				10FE66CE140E7F8B00555A5C /* ValueGetSetTests */,
+				10FE66AD140E7F8A00555A5C /* Frameworks */,
+				10FE66AB140E7F8A00555A5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10FE66AB140E7F8A00555A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10FE66AA140E7F8A00555A5C /* ValueGetSet.app */,
+				10FE66C8140E7F8B00555A5C /* ValueGetSetTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10FE66AD140E7F8A00555A5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10FE66AE140E7F8A00555A5C /* UIKit.framework */,
+				10FE66B0140E7F8A00555A5C /* Foundation.framework */,
+				10FE66B2140E7F8A00555A5C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10FE66B4140E7F8A00555A5C /* ValueGetSet */ = {
+			isa = PBXGroup;
+			children = (
+				10FE66BD140E7F8A00555A5C /* ValueGetSetAppDelegate.h */,
+				10FE66BE140E7F8A00555A5C /* ValueGetSetAppDelegate.m */,
+				10FE66E1140E7FC600555A5C /* FirstViewController.h */,
+				10FE66E2140E7FC600555A5C /* FirstViewController.m */,
+				10FE66E6140E7FDB00555A5C /* SecondViewController.h */,
+				10FE66E7140E7FDB00555A5C /* SecondViewController.m */,
+				10FE66B5140E7F8A00555A5C /* Supporting Files */,
+			);
+			path = ValueGetSet;
+			sourceTree = "<group>";
+		};
+		10FE66B5140E7F8A00555A5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10FE66B6140E7F8A00555A5C /* ValueGetSet-Info.plist */,
+				10FE66B7140E7F8A00555A5C /* InfoPlist.strings */,
+				10FE66BA140E7F8A00555A5C /* ValueGetSet-Prefix.pch */,
+				10FE66BB140E7F8A00555A5C /* main.m */,
+				10FE66C0140E7F8B00555A5C /* MainWindow.xib */,
+				10FE66E3140E7FC600555A5C /* FirstViewController.xib */,
+				10FE66E8140E7FDB00555A5C /* SecondViewController.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10FE66CE140E7F8B00555A5C /* ValueGetSetTests */ = {
+			isa = PBXGroup;
+			children = (
+				10FE66D5140E7F8B00555A5C /* ValueGetSetTests.h */,
+				10FE66D7140E7F8B00555A5C /* ValueGetSetTests.m */,
+				10FE66CF140E7F8B00555A5C /* Supporting Files */,
+			);
+			path = ValueGetSetTests;
+			sourceTree = "<group>";
+		};
+		10FE66CF140E7F8B00555A5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10FE66D0140E7F8B00555A5C /* ValueGetSetTests-Info.plist */,
+				10FE66D1140E7F8B00555A5C /* InfoPlist.strings */,
+				10FE66D4140E7F8B00555A5C /* ValueGetSetTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10FE66A9140E7F8A00555A5C /* ValueGetSet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FE66DB140E7F8B00555A5C /* Build configuration list for PBXNativeTarget "ValueGetSet" */;
+			buildPhases = (
+				10FE66A6140E7F8A00555A5C /* Sources */,
+				10FE66A7140E7F8A00555A5C /* Frameworks */,
+				10FE66A8140E7F8A00555A5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValueGetSet;
+			productName = ValueGetSet;
+			productReference = 10FE66AA140E7F8A00555A5C /* ValueGetSet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10FE66C7140E7F8B00555A5C /* ValueGetSetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FE66DE140E7F8B00555A5C /* Build configuration list for PBXNativeTarget "ValueGetSetTests" */;
+			buildPhases = (
+				10FE66C3140E7F8B00555A5C /* Sources */,
+				10FE66C4140E7F8B00555A5C /* Frameworks */,
+				10FE66C5140E7F8B00555A5C /* Resources */,
+				10FE66C6140E7F8B00555A5C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10FE66CD140E7F8B00555A5C /* PBXTargetDependency */,
+			);
+			name = ValueGetSetTests;
+			productName = ValueGetSetTests;
+			productReference = 10FE66C8140E7F8B00555A5C /* ValueGetSetTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10FE66A1140E7F8A00555A5C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 10FE66A4140E7F8A00555A5C /* Build configuration list for PBXProject "ValueGetSet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10FE669F140E7F8A00555A5C;
+			productRefGroup = 10FE66AB140E7F8A00555A5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10FE66A9140E7F8A00555A5C /* ValueGetSet */,
+				10FE66C7140E7F8B00555A5C /* ValueGetSetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10FE66A8140E7F8A00555A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE66B9140E7F8A00555A5C /* InfoPlist.strings in Resources */,
+				10FE66C2140E7F8B00555A5C /* MainWindow.xib in Resources */,
+				10FE66E5140E7FC600555A5C /* FirstViewController.xib in Resources */,
+				10FE66EA140E7FDB00555A5C /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FE66C5140E7F8B00555A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE66D3140E7F8B00555A5C /* InfoPlist.strings in Resources */,
+				10FE66D6140E7F8B00555A5C /* ValueGetSetTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10FE66C6140E7F8B00555A5C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10FE66A6140E7F8A00555A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE66BC140E7F8A00555A5C /* main.m in Sources */,
+				10FE66BF140E7F8A00555A5C /* ValueGetSetAppDelegate.m in Sources */,
+				10FE66E4140E7FC600555A5C /* FirstViewController.m in Sources */,
+				10FE66E9140E7FDB00555A5C /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FE66C3140E7F8B00555A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE66D8140E7F8B00555A5C /* ValueGetSetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10FE66CD140E7F8B00555A5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10FE66A9140E7F8A00555A5C /* ValueGetSet */;
+			targetProxy = 10FE66CC140E7F8B00555A5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10FE66B7140E7F8A00555A5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10FE66B8140E7F8A00555A5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10FE66C0140E7F8B00555A5C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10FE66C1140E7F8B00555A5C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		10FE66D1140E7F8B00555A5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10FE66D2140E7F8B00555A5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10FE66D9140E7F8B00555A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10FE66DA140E7F8B00555A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		10FE66DC140E7F8B00555A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ValueGetSet/ValueGetSet-Prefix.pch";
+				INFOPLIST_FILE = "ValueGetSet/ValueGetSet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10FE66DD140E7F8B00555A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ValueGetSet/ValueGetSet-Prefix.pch";
+				INFOPLIST_FILE = "ValueGetSet/ValueGetSet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		10FE66DF140E7F8B00555A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ValueGetSet.app/ValueGetSet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ValueGetSetTests/ValueGetSetTests-Prefix.pch";
+				INFOPLIST_FILE = "ValueGetSetTests/ValueGetSetTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		10FE66E0140E7F8B00555A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ValueGetSet.app/ValueGetSet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ValueGetSetTests/ValueGetSetTests-Prefix.pch";
+				INFOPLIST_FILE = "ValueGetSetTests/ValueGetSetTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10FE66A4140E7F8A00555A5C /* Build configuration list for PBXProject "ValueGetSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FE66D9140E7F8B00555A5C /* Debug */,
+				10FE66DA140E7F8B00555A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10FE66DB140E7F8B00555A5C /* Build configuration list for PBXNativeTarget "ValueGetSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FE66DC140E7F8B00555A5C /* Debug */,
+				10FE66DD140E7F8B00555A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10FE66DE140E7F8B00555A5C /* Build configuration list for PBXNativeTarget "ValueGetSetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FE66DF140E7F8B00555A5C /* Debug */,
+				10FE66E0140E7F8B00555A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10FE66A1140E7F8A00555A5C /* Project object */;
+}
